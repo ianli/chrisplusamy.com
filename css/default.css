@@ -1,0 +1,135 @@
+/*!
+ * Default stylesheet for YAWL.
+ */
+ 
+body {
+  background:#5F3A63 url(../img/body-bg.png) center top no-repeat;
+  color:#fff;
+}
+
+body, p {
+  line-height:1em;
+  font-family:'BaskervilleNormalRegular','Times New Roman',serif;
+  font-size:inherit;
+}
+
+p {
+  margin-bottom:1em;
+}
+
+a {
+  color:#ED8535;
+}
+  a:hover {
+    color:#DF5533;
+  }
+  
+hr {
+  border-top-color:rgba(255,255,255,0.25);
+  border-bottom:none;
+}
+
+.centered {
+  text-align:center;
+}
+
+/* HEADER
+ * ====== */
+ 
+header {
+  padding-top:200px;
+  height:150px;
+}
+  header #hd-logo {
+    line-height:80px;
+    font-size:90px;
+    font-weight:normal;
+  }
+  header #hd-logo > small {
+    display:block;
+    width:100%;
+    line-height:1em;
+    font-size:27px;
+    text-align:center;
+    text-transform:uppercase;
+    color:#fff;
+  }
+  header #hd-mark {
+    padding-top:15px;
+    text-align:center;
+  }
+
+/* NAVIGATION
+ * ========== */
+
+nav {
+}
+  nav ul {
+    margin:0 auto;
+    padding:0;
+    height:100px;
+    list-style:none;
+  } 
+  nav ul > li {
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+  }
+    nav ul > li > a {
+      padding:25px 15px;
+      height:30px;
+      line-height:30px;
+      font-size:21px;
+    }
+    nav ul > li > a.selected,
+    nav ul > li > a:hover {
+      background:url(../img/nav-hover-bg.png) center no-repeat;
+      color:#fff;
+      text-decoration:none;
+    }
+
+/* CONTENT
+ * ======= */
+   
+#content {
+  min-height:200px;
+  line-height:1.2em;
+  font-size:24px;
+}
+
+/* FOOTER
+ * ====== */
+ 
+footer {
+  height:200px;
+  background:url(../img/ft-bg.png) bottom center no-repeat;
+  text-align:center;
+}
+
+/* CREDITS
+ * ======= */
+ 
+ul.credits {
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+}
+  ul.credits > li {
+    display:block;
+    float:left;
+    clear:both;
+    width:100%;
+    margin-bottom:30px;
+    background:url(../img/credits-item-bg.png) center bottom repeat-x;
+  }
+  ul.credits > li > .task {
+    float:left;
+    padding-right:5px;
+    background-color:#5F3A63;
+  }
+  ul.credits > li > .name {
+    float:right;
+    padding-left:5px;
+    background-color:#5F3A63;
+  }

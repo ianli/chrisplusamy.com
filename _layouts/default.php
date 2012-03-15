@@ -41,7 +41,7 @@
   <nav class="row">
     <div class="span12">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="./">Home</a></li>
         <li><a href="venue.html">Venue</a></li>     
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="activities.html">Activities</a></li>

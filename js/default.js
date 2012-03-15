@@ -35,8 +35,9 @@
         , pathname = window.location.pathname
         , filename = pathname.substr(pathname.lastIndexOf('/') + 1);
 
-      if ((filename.length == 0 && href == 'index.html')
-          || href == filename) {
+      var isIndex = (filename.length == 0 || filename == 'index.html') && (href == 'index.html' || href == './');
+      
+      if (isIndex || href == filename) {
         $this.addClass('selected');
       }
     });

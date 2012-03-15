@@ -9,14 +9,15 @@ Install
 1. Download the code.
 2. Put the code in a web-visible directory.
 3. Make sure that `_site` is globally-writeable:
-  ```
-  chmod 2777 _site
-  ```
-4. The web site will only be updated if one of the files in `_pages` is newer than the `_site` folder.
-   To do this, quickly:
-  ```
-  touch _pages/index.html
-  ```
+
+    ```
+    chmod 2777 _site
+    ```
+4. The web site will only be updated if one of the files in `_pages` is newer than the `_site` folder. To do this, quickly:
+
+    ```
+    touch _pages/index.html
+    ```
 
 Framework
 ---------
